@@ -60,7 +60,6 @@ export default function About() {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="01"
           eyebrow="About Kelvin"
           title="Trusted Healthcare Technologist &"
           highlight="AI Product Builder"

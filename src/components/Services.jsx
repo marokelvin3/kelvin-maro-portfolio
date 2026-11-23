@@ -29,7 +29,6 @@ export default function Services({ onNavigate }) {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="05"
           eyebrow="RUVIN IT Consulting"
           title="What You Can Hire Me to"
           highlight="Build & Automate"

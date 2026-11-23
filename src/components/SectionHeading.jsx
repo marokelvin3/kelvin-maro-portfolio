@@ -7,7 +7,6 @@ export default function SectionHeading({
   highlight,
   subtitle,
   align = 'center',
-  indexLabel,
 }) {
   const isCenter = align === 'center';
 
@@ -26,11 +25,6 @@ export default function SectionHeading({
           isCenter ? 'mx-auto' : ''
         }`}
       >
-        {indexLabel && (
-          <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-brand-crimson text-[10px] font-bold text-white">
-            {indexLabel}
-          </span>
-        )}
         <span className="h-1.5 w-1.5 rounded-full bg-brand-cyan animate-pulse" />
         <span>{eyebrow}</span>
       </div>

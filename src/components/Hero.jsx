@@ -314,7 +314,7 @@ export default function Hero({ onNavigate }) {
                 <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white">
                   <div>
                     <p className="font-mono text-[10px] uppercase tracking-widest text-brand-cyan">
-                      RUVIN // 01
+                      RUVIN IT CONSULTING
                     </p>
                     <p className="font-display text-xs font-bold">Kelvin Maro U.</p>
                   </div>

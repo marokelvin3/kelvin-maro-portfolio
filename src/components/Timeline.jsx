@@ -29,7 +29,6 @@ export default function Timeline() {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="04"
           eyebrow="Career & Education"
           title="Experience &"
           highlight="Leadership Timeline"

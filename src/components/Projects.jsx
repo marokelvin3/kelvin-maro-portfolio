@@ -12,7 +12,6 @@ export default function Projects({ onNavigate }) {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="03"
           eyebrow="Selected Work"
           title="Featured Software, Healthcare &"
           highlight="Web Platforms"

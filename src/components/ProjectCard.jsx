@@ -48,7 +48,7 @@ export default function ProjectCard({ project, index, onNavigate }) {
           className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         />
 
-        {/* Top Bar: Number Index & Category */}
+        {/* Top Bar: Category */}
         <div className="relative z-10">
           <div className="flex items-center justify-between gap-2 mb-4">
             <span
@@ -57,10 +57,6 @@ export default function ProjectCard({ project, index, onNavigate }) {
               }`}
             >
               <span>{project.category}</span>
-            </span>
-
-            <span className="font-mono text-xs font-bold text-slate-400 dark:text-slate-500">
-              /{project.number}
             </span>
           </div>
 

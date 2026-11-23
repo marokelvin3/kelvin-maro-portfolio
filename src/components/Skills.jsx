@@ -30,7 +30,6 @@ export default function Skills() {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="02"
           eyebrow="Technical Capabilities"
           title="Full-Stack Engineering, AI Automation &"
           highlight="Healthcare IT Infrastructure"
@@ -61,9 +60,6 @@ export default function Skills() {
                   >
                     <IconComponent className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <span className="font-mono text-xs text-slate-400 dark:text-slate-500">
-                    0{idx + 1} // CAPABILITY
-                  </span>
                 </div>
 
                 <h3 className="font-display text-xl font-bold text-slate-900 dark:text-white group-hover:text-brand-indigo dark:group-hover:text-brand-cyan transition-colors">

@@ -93,7 +93,6 @@ export default function ContactForm() {
     >
       <div className="mx-auto max-w-container px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          indexLabel="06"
           eyebrow="Start a Conversation"
           title="Let’s Build Practical AI &"
           highlight="Reliable Software Together"
