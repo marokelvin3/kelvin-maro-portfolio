@@ -1,0 +1,138 @@
+/**
+ * Featured Projects Data
+ * NOTE: You can easily edit liveUrl, caseStudyUrl, and descriptions here.
+ * Look for EDITABLE markers where customization is expected.
+ */
+export const featuredProjects = [
+  {
+    id: 'mrcc-connect',
+    number: '01',
+    title: 'MRCC Connect',
+    category: 'Healthcare Internal Platform',
+    description:
+      'Full-stack HR management portal running in live production at the hospital.',
+    tags: ['Full-Stack', 'HR Portal', 'Healthcare IT', 'Live Production'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: true,
+    accent: 'indigo',
+  },
+  {
+    id: 'mrcc-websites',
+    number: '02',
+    title: 'MRCC Websites Ecosystem',
+    category: 'Multi-Site Healthcare Web Architecture',
+    description:
+      'Management and technical maintenance of four WordPress websites (corporate, foundation, network and research).',
+    tags: ['WordPress', 'Multi-Site Management', 'Healthcare', 'Web Operations'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: true,
+    accent: 'cyan',
+  },
+  {
+    id: 'auberge',
+    number: '03',
+    title: 'Auberge',
+    category: 'Hospitality SaaS Web App',
+    description:
+      'Hotel management web app (bookings, check-out monitoring, payments, staff/admin login). React, Prisma, PostgreSQL.',
+    tags: ['React', 'Prisma', 'PostgreSQL', 'RBAC Auth', 'Payments'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: true,
+    accent: 'crimson',
+  },
+  {
+    id: 'anive-co',
+    number: '04',
+    title: 'ANIVE.CO',
+    category: 'Consumer Web Platform',
+    // [EDITABLE: Customize ANIVE.CO description and liveUrl below when ready]
+    description: 'Online gifting experience.',
+    isEditableDescription: true,
+    editableNote: 'Description marked as editable — update in src/data/projects.js',
+    tags: ['Gifting Platform', 'Web Application', 'Digital Experience'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'indigo',
+  },
+  {
+    id: 'joshua-abraham',
+    number: '05',
+    title: 'Joshuaabraham.org',
+    category: 'Multi-Entity Web Portal',
+    description:
+      'Portal website linking a foundation, ministries and a planned clinic. Plain HTML/CSS/JS, deployed on Netlify.',
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'Netlify'],
+    liveUrl: 'https://joshuaabraham.org',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'cyan',
+  },
+  {
+    id: 'patient-satisfaction',
+    number: '06',
+    title: 'Patient Satisfaction Analytics',
+    category: 'Healthcare Data & Reporting',
+    description:
+      'Excel-based survey analysis and reporting for hospital departments.',
+    tags: ['Excel Analytics', 'Survey Reporting', 'Hospital Operations', 'Data Insights'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'crimson',
+  },
+  {
+    id: 'ruvin-ecommerce',
+    number: '07',
+    title: 'RUVIN E-commerce Storefront',
+    category: 'Client Digital Commerce',
+    description: 'Next.js storefront built for a consulting client.',
+    tags: ['Next.js', 'React', 'E-commerce', 'RUVIN IT Consulting'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'indigo',
+  },
+  {
+    id: 'international-logistics',
+    number: '08',
+    title: 'International Logistics Website',
+    category: 'Supply Chain & Tracking Frontend',
+    description:
+      'Freight and shipment-tracking front end, DHL-tracking API-ready.',
+    tags: ['Frontend', 'Shipment Tracking', 'DHL API-Ready', 'Logistics'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'cyan',
+  },
+  {
+    id: 'wihcn-rebuild',
+    number: '09',
+    title: 'WIHCN Website Rebuild',
+    category: 'Healthcare Network Platform',
+    description:
+      'Modern rebuild of the Women in Healthcare Network site.',
+    tags: ['Web Rebuild', 'Modern UI', 'Healthcare Network'],
+    liveUrl: '#',
+    caseStudyUrl: '#',
+    featured: false,
+    accent: 'crimson',
+  },
+  {
+    id: 'more-coming-soon',
+    number: '10',
+    title: 'More Coming Soon',
+    category: 'RUVIN AI & Product Lab',
+    description:
+      'New AI agents, healthcare workflow tools, and client web platforms currently in active development.',
+    tags: ['AI Agents', 'Workflow Automation', 'In Progress'],
+    liveUrl: '#contact',
+    caseStudyUrl: '#contact',
+    isPlaceholderCard: true,
+    accent: 'indigo',
+  },
+];

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Title & Dynamic Title Fallback -->
+    <title id="dynamic-page-title">Kelvin Maro U. | AI Product Engineer & Healthcare Systems Builder</title>
+
+    <!-- Primary SEO & LLM Search Discovery Meta Tags -->
+    <meta
+      name="description"
+      content="Kelvin Maro U. — AI Product Engineer, Hospital IT Manager (MRCC Lagos), and Founder of RUVIN IT Consulting. I build intelligent, practical software that solves organizational and societal problems."
+    />
+    <meta
+      name="keywords"
+      content="Kelvin Maro U., Kelvin Umuowhero, AI Product Engineer, Healthcare IT Manager, RUVIN IT Consulting, AI Workflow Automation, Building AI Agents, Lagos Nigeria, Remote AI Engineer, Full-Stack Developer"
+    />
+    <meta name="author" content="Kelvin Maro U." />
+    <meta
+      name="robots"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta
+      name="googlebot"
+      content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#0A0A0F" />
+
+    <!-- LLMs.txt Discovery for AI / LLM Search Engines (Perplexity, ChatGPT Search, Claude, Gemini) -->
+    <link rel="llms-txt" href="/llms.txt" />
+    <link rel="alternate" type="text/markdown" title="LLM Context & Portfolio Summary (llms.txt)" href="/llms.txt" />
+    <meta name="llms-txt" content="/llms.txt" />
+    <meta
+      name="ai-content-summary"
+      content="Kelvin Maro U. is an AI Product Engineer (1 yr) and IT Support Expert (4 yrs) managing IT for 100+ staff at MRCC cancer hospital in Lagos and leading RUVIN IT Consulting remotely worldwide. Machine-readable profile available at /llms.txt."
+    />
+
+    <!-- Brand Logo Favicon Setup -->
+    <link rel="icon" type="image/svg+xml" href="/brand-logo.svg" />
+    <link rel="shortcut icon" href="/brand-logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/brand-logo.svg" />
+    <link rel="mask-icon" href="/brand-logo.svg" color="#6366F1" />
+
+    <!-- Open Graph / Social Sharing (Using the Brand Logo of the Website) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="KM. — Kelvin Maro U. | RUVIN IT Consulting" />
+    <meta property="og:title" content="Kelvin Maro U. | AI Product Engineer & Healthcare Systems Builder" />
+    <meta
+      property="og:description"
+      content="I build intelligent, practical software that solves organizational and societal problems. AI Product Engineer & Founder of RUVIN IT Consulting."
+    />
+    <meta property="og:image" content="/brand-logo.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:alt" content="KM. — Kelvin Maro U. Brand Logo" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Card (Using the Brand Logo of the Website) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Feedngdnation" />
+    <meta name="twitter:creator" content="@Feedngdnation" />
+    <meta name="twitter:title" content="Kelvin Maro U. | AI Product Engineer" />
+    <meta
+      name="twitter:description"
+      content="I build intelligent, practical software that solves organizational and societal problems."
+    />
+    <meta name="twitter:image" content="/brand-logo.svg" />
+    <meta name="twitter:image:alt" content="KM. — Kelvin Maro U. Brand Logo" />
+
+    <!-- Dynamic Head Title Script (Updates on Section Scroll, Hash Navigation & Tab Visibility) -->
+    <script>
+      (function () {
+        var BASE_NAME = 'Kelvin Maro U.';
+        var DEFAULT_TITLE = 'Kelvin Maro U. | AI Product Engineer & Healthcare Systems Builder';
+        var SECTION_TITLES = {
+          hero: DEFAULT_TITLE,
+          about: 'About & Impact Stats | ' + BASE_NAME + ' — AI Product Engineer',
+          skills: 'AI, Full-Stack & Healthcare IT Skills | ' + BASE_NAME,
+          projects: 'Featured Projects & Case Studies | ' + BASE_NAME,
+          experience: 'Experience & Leadership Timeline | ' + BASE_NAME,
+          services: 'RUVIN IT Consulting Services & AI Agents | ' + BASE_NAME,
+          contact: 'Hire or Contact ' + BASE_NAME + ' | AI Product Engineer'
+        };
+
+        window.__setPortfolioTitle = function (sectionId) {
+          if (document.hidden) return;
+          var nextTitle = SECTION_TITLES[sectionId] || DEFAULT_TITLE;
+          if (document.title !== nextTitle) {
+            document.title = nextTitle;
+          }
+        };
+
+        document.addEventListener('visibilitychange', function () {
+          if (document.hidden) {
+            document.title = 'Let’s Build Practical AI — ' + BASE_NAME + ' (KM.)';
+          } else {
+            var hash = (window.location.hash || '#hero').replace('#', '');
+            window.__setPortfolioTitle(hash || 'hero');
+          }
+        });
+      })();
+    </script>
+
+    <!-- Google Fonts: Space Grotesk + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JSON-LD Person & WebSite Schema (Includes Brand Logo & llms.txt reference) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "#kelvin-maro-u",
+            "name": "Kelvin Maro U.",
+            "jobTitle": "AI Product Engineer",
+            "description": "AI Product Engineer who builds intelligent, practical software that solves organizational and societal problems.",
+            "logo": "/brand-logo.svg",
+            "image": "/images/kelvin-portrait.jpeg",
+            "email": "mailto:kelvinumuowhero@gmail.com",
+            "telephone": "+2348067045728",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Lagos",
+              "addressCountry": "Nigeria"
+            },
+            "worksFor": [
+              {
+                "@type": "Organization",
+                "name": "RUVIN IT Consulting",
+                "logo": "/brand-logo.svg"
+              },
+              {
+                "@type": "Hospital",
+                "name": "Marcelle Ruth Cancer Centre & Specialist Hospital (MRCC)"
+              }
+            ],
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Delta State University, Abraka"
+            },
+            "knowsAbout": [
+              "AI Product Engineering",
+              "AI Workflow Automation",
+              "Building AI Agents",
+              "Healthcare IT Management",
+              "Full-Stack Web Development",
+              "Microsoft 365 Administration"
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/in/kelvin-umuowhero-082688437/",
+              "https://x.com/Feedngdnation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "name": "Kelvin Maro U. — AI Product Engineer Portfolio",
+            "publisher": { "@id": "#kelvin-maro-u" },
+            "about": { "@id": "#kelvin-maro-u" },
+            "encodingFormat": "text/html",
+            "potentialAction": {
+              "@type": "ReadAction",
+              "target": ["/llms.txt"]
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-base-light text-slate-900 dark:bg-base-dark dark:text-slate-100 antialiased selection:bg-brand-indigo selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

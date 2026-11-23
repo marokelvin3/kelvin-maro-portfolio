@@ -1,0 +1,53 @@
+# Kelvin Maro U. — AI Product Engineer & Founder of RUVIN IT Consulting
+
+> "I build intelligent, practical software that solves organizational and societal problems"
+
+## Summary
+Kelvin Maro U. is an AI Product Engineer based in Lagos, Nigeria, working with clients remotely worldwide. He combines 1 year of experience building AI-assisted products with 4 years of experience as an IT Support Expert. He manages IT operations for a specialist cancer hospital in Lagos (Marcelle Ruth Cancer Centre & Specialist Hospital - MRCC), supporting 100+ staff, and independently builds web platforms, internal tools, and AI-assisted workflows through his consultancy, **RUVIN IT Consulting**.
+
+## Core Specialties & Services (RUVIN IT Consulting)
+- **AI Workflow Automation**: Connecting everyday business and clinical tools with intelligent automation to eliminate repetitive manual work.
+- **Building AI Agents to Optimize Organizational Workflow**: Designing and deploying custom AI agents tailored to organizational processes.
+- **Healthcare IT & Systems Consulting**: Practical hospital IT operations setup, reliability auditing, and clinical/administrative technology support.
+- **Custom Web & Internal Tools**: Full-stack HR portals, operational dashboards, and booking platforms built with React, Next.js, Prisma, and PostgreSQL.
+- **Website Design, Management & Support**: Multi-site WordPress ecosystems and modern web rebuilds with ongoing technical maintenance.
+
+## Key Metrics
+- 1 Year as an AI Product Engineer
+- 4 Years as an IT Support Expert
+- 100+ Hospital Staff Supported
+- 4 WordPress Websites Managed
+- 9 Featured Software & Web Projects
+
+## Technical Skills
+- **AI & Automation**: AI Product Engineering, AI Agents & Workflow Optimization, LLM Integration, Business Process Automation.
+- **Frontend**: React, Next.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, UI/UX Design, WordPress.
+- **Backend & Data**: PostgreSQL, Prisma ORM, REST APIs (DHL-tracking API-ready), Excel Survey Analytics & Departmental Reporting.
+- **IT Infrastructure & Security**: Hospital IT Operations Management, Enterprise Technical Support, Endpoint & Network Reliability, Systems Security.
+- **Cloud & Productivity**: Microsoft 365 Administration & Technical Support, SharePoint, Teams, Exchange, Netlify Deployment.
+
+## Experience & Education
+- **AI Product Engineer**: Designs and ships AI-assisted products and web platforms (1 year).
+- **IT Manager — Marcelle Ruth Cancer Centre & Specialist Hospital (MRCC), Victoria Island, Lagos**: Leads IT operations, systems, websites, and internal software for the hospital.
+- **Founder / Lead Consultant — RUVIN IT Consulting**: Independent IT and software consultancy serving healthcare clients globally, remotely.
+- **Technical Support Engineer (Microsoft 365) — TeKnowledge**.
+- **Support Engineer / UI-UX Designer — Jansa Oil Limited**.
+- **Education**: B.Ed. Political Science Education, Delta State University, Abraka (2015).
+
+## Featured Projects
+1. **MRCC Connect**: Full-stack HR management portal running in live production at the hospital.
+2. **MRCC Websites Ecosystem**: Management and technical maintenance of four WordPress websites (corporate, foundation, network, and research).
+3. **Auberge**: Hotel management web app (bookings, check-out monitoring, payments, staff/admin login) built with React, Prisma, and PostgreSQL.
+4. **ANIVE.CO**: Online gifting experience platform.
+5. **Joshuaabraham.org**: Portal website linking a foundation, ministries, and a planned clinic (Plain HTML/CSS/JS, deployed on Netlify: https://joshuaabraham.org).
+6. **Patient Satisfaction Analytics**: Excel-based survey analysis and reporting for hospital departments.
+7. **RUVIN E-commerce Storefront**: Next.js storefront built for a consulting client.
+8. **International Logistics Website**: Freight and shipment-tracking front end, DHL-tracking API-ready.
+9. **WIHCN Website Rebuild**: Modern rebuild of the Women in Healthcare Network site.
+
+## Direct Contact & Social Profiles
+- **Email**: mailto:kelvinumuowhero@gmail.com
+- **Phone / WhatsApp**: +234 806 704 5728 (https://wa.me/2348067045728)
+- **LinkedIn**: https://www.linkedin.com/in/kelvin-umuowhero-082688437/
+- **X (Twitter)**: https://x.com/Feedngdnation (@Feedngdnation)
+- **Location**: Lagos, Nigeria (Available remotely worldwide)
