@@ -76,7 +76,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-5 flex flex-col items-center"
           >
-            <div className="relative flex items-center justify-center w-72 h-72 sm:w-80 sm:h-80">
+            <div className="relative flex items-center justify-center w-64 h-64 sm:w-80 sm:h-80">
               {/* Outer Slowly Spinning Conic/Gradient Ring */}
               <div
                 aria-hidden="true"
@@ -88,11 +88,11 @@ export default function About() {
               {/* Inner Reverse-Spinning Dashed Ring */}
               <div
                 aria-hidden="true"
-                className="absolute inset-4 rounded-full border-2 border-dashed border-brand-indigo/50 dark:border-brand-cyan/40 animate-spin-reverse-slow"
+                className="absolute inset-3 sm:inset-4 rounded-full border-2 border-dashed border-brand-indigo/50 dark:border-brand-cyan/40 animate-spin-reverse-slow"
               />
 
               {/* Primary Circular Profile Image (Switches between Passport & Portrait) */}
-              <div className="relative z-10 h-56 w-56 sm:h-64 sm:w-64 rounded-full overflow-hidden border-4 border-white dark:border-base-card shadow-2xl bg-slate-900">
+              <div className="relative z-10 h-48 w-48 sm:h-64 sm:w-64 rounded-full overflow-hidden border-4 border-white dark:border-base-card shadow-2xl bg-slate-900">
                 <img
                   src={
                     activePhoto === 'passport'
@@ -209,8 +209,8 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* Highlight Stat Cards (5 Animated Counters) */}
-        <div className="mt-14 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        {/* Highlight Stat Cards (5 Animated Counters: responsive across Phone 360px, iPad 768px, Desktop 1024px+) */}
+        <div className="mt-12 sm:mt-14 grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4">
           {profileData.stats.map((stat, idx) => (
             <motion.div
               key={stat.id}

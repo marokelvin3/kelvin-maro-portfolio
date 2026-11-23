@@ -100,7 +100,7 @@ export default function Hero({ onNavigate }) {
     <section
       id="hero"
       aria-label="Introduction"
-      className="relative min-h-[calc(100vh-80px)] pt-28 pb-16 md:pt-32 md:pb-20 overflow-hidden flex items-center"
+      className="relative min-h-[calc(100vh-80px)] pt-24 pb-12 sm:pt-28 sm:pb-16 md:pt-32 md:pb-20 overflow-hidden flex items-center"
     >
       {/* Animated Gradient Mesh / Aurora Orbs */}
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -125,63 +125,63 @@ export default function Hero({ onNavigate }) {
             className="lg:col-span-7 text-left"
           >
             {/* Status & Location Pill */}
-            <div className="inline-flex flex-wrap items-center gap-2.5 rounded-full px-4 py-1.5 text-xs font-medium glass-pill text-slate-700 dark:text-slate-200 mb-6">
-              <span className="relative flex h-2.5 w-2.5">
+            <div className="inline-flex flex-wrap items-center gap-2 rounded-2xl sm:rounded-full px-3.5 py-1.5 text-[11px] sm:text-xs font-medium glass-pill text-slate-700 dark:text-slate-200 mb-5 sm:mb-6">
+              <span className="relative flex h-2.5 w-2.5 shrink-0">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" />
               </span>
               <span className="font-semibold text-brand-indigo dark:text-brand-cyan">
                 Available for AI & Software Projects
               </span>
-              <span className="text-slate-400">|</span>
+              <span className="hidden sm:inline text-slate-400">|</span>
               <span className="inline-flex items-center gap-1 text-slate-600 dark:text-slate-300">
-                <MapPin className="h-3.5 w-3.5 text-brand-crimson" aria-hidden="true" />
-                Lagos, Nigeria · Remote Worldwide
+                <MapPin className="h-3.5 w-3.5 text-brand-crimson shrink-0" aria-hidden="true" />
+                <span>Lagos, Nigeria · Remote Worldwide</span>
               </span>
             </div>
 
             {/* Greeting & Full Name */}
-            <p className="font-mono text-xs sm:text-sm uppercase tracking-[0.22em] text-slate-500 dark:text-slate-400 mb-2">
+            <p className="font-mono text-[11px] sm:text-sm uppercase tracking-[0.18em] sm:tracking-[0.22em] text-slate-500 dark:text-slate-400 mb-2">
               WELCOME TO MY PORTFOLIO // RUVIN IT CONSULTING
             </p>
 
-            <h1 className="font-display text-4xl sm:text-6xl lg:text-[4.1rem] font-bold tracking-tight text-slate-900 dark:text-white leading-[1.06]">
+            <h1 className="font-display text-3xl sm:text-5xl md:text-6xl lg:text-[4.1rem] font-bold tracking-tight text-slate-900 dark:text-white leading-[1.08]">
               {profileData.name}
             </h1>
 
             {/* Rotating Role Line */}
-            <div className="mt-4 flex items-center gap-3 min-h-[2.5rem] sm:min-h-[3rem]">
-              <span className="inline-block h-6 w-1.5 rounded-full bg-brand-crimson" aria-hidden="true" />
+            <div className="mt-3 sm:mt-4 flex items-center gap-2.5 sm:gap-3 min-h-[2.25rem] sm:min-h-[3rem]">
+              <span className="inline-block h-5 sm:h-6 w-1.5 rounded-full bg-brand-crimson shrink-0" aria-hidden="true" />
               <span
                 aria-live="polite"
-                className="font-display text-xl sm:text-2xl lg:text-3xl font-semibold text-gradient-primary"
+                className="font-display text-lg sm:text-2xl md:text-3xl font-semibold text-gradient-primary truncate"
               >
                 {shownRole}
               </span>
               <span
                 aria-hidden="true"
-                className="inline-block h-6 w-[2px] bg-brand-cyan animate-pulse"
+                className="inline-block h-5 sm:h-6 w-[2px] bg-brand-cyan animate-pulse shrink-0"
               />
             </div>
 
             {/* 2-Line Value Statement */}
-            <div className="mt-6 max-w-2xl space-y-2">
-              <p className="text-lg sm:text-xl font-medium text-slate-800 dark:text-slate-100 leading-relaxed">
+            <div className="mt-5 sm:mt-6 max-w-2xl space-y-2">
+              <p className="text-base sm:text-xl font-medium text-slate-800 dark:text-slate-100 leading-relaxed">
                 “{profileData.tagline}”
               </p>
-              <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+              <p className="text-xs sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
                 {profileData.valueSubline}
               </p>
             </div>
 
             {/* Magnetic CTAs (Conditionally render Projects or Contact view while keeping URL '/') */}
-            <div className="mt-8 flex flex-wrap items-center gap-4">
+            <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-4">
               <MagneticButton
                 onClick={(e) => onNavigate && onNavigate('projects', e)}
                 ariaLabel="View Featured Projects"
-                className="group relative inline-flex items-center gap-2.5 rounded-2xl bg-gradient-to-r from-brand-indigo via-brand-cyan to-brand-crimson p-[1.5px] font-display text-sm sm:text-base font-semibold text-white shadow-glow-indigo hover:shadow-glow-cyan transition-shadow"
+                className="group relative inline-flex items-center justify-center gap-2.5 rounded-2xl bg-gradient-to-r from-brand-indigo via-brand-cyan to-brand-crimson p-[1.5px] font-display text-sm sm:text-base font-semibold text-white shadow-glow-indigo hover:shadow-glow-cyan transition-shadow"
               >
-                <span className="inline-flex items-center gap-2.5 rounded-[14px] bg-slate-950/90 dark:bg-slate-950/80 px-6 py-3.5 text-white group-hover:bg-slate-950/60 transition-colors">
+                <span className="inline-flex w-full sm:w-auto items-center justify-center gap-2.5 rounded-[14px] bg-slate-950/90 dark:bg-slate-950/80 px-6 py-3.5 text-white group-hover:bg-slate-950/60 transition-colors">
                   <Sparkles className="h-4 w-4 text-brand-cyan" aria-hidden="true" />
                   <span>View Projects</span>
                   <ArrowRight
@@ -194,7 +194,7 @@ export default function Hero({ onNavigate }) {
               <MagneticButton
                 onClick={(e) => onNavigate && onNavigate('contact', e)}
                 ariaLabel="Contact Kelvin Maro U."
-                className="inline-flex items-center gap-2 rounded-2xl px-6 py-3.5 font-display text-sm sm:text-base font-semibold glass-surface text-slate-900 dark:text-white hover:border-brand-indigo dark:hover:border-brand-cyan transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-3.5 font-display text-sm sm:text-base font-semibold glass-surface text-slate-900 dark:text-white hover:border-brand-indigo dark:hover:border-brand-cyan transition-colors"
               >
                 <Mail className="h-4 w-4 text-brand-indigo dark:text-brand-cyan" aria-hidden="true" />
                 <span>Contact Me</span>
@@ -266,11 +266,11 @@ export default function Hero({ onNavigate }) {
             transition={{ duration: 0.7, delay: 0.15, ease: 'easeOut' }}
             className="lg:col-span-5 flex flex-col items-center justify-center"
           >
-            <div className="relative flex items-center justify-center w-[310px] h-[310px] sm:w-[380px] sm:h-[380px]">
+            <div className="relative flex items-center justify-center w-[275px] h-[275px] sm:w-[360px] sm:h-[360px] md:w-[390px] md:h-[390px]">
               {/* Template-Inspired Editorial Crimson Vertical Pillar Behind Portrait */}
               <div
                 aria-hidden="true"
-                className="absolute inset-y-2 w-28 sm:w-32 rounded-3xl bg-gradient-to-b from-brand-crimson via-brand-crimson/85 to-brand-indigo shadow-glow-crimson opacity-90"
+                className="absolute inset-y-2 w-24 sm:w-32 rounded-3xl bg-gradient-to-b from-brand-crimson via-brand-crimson/85 to-brand-indigo shadow-glow-crimson opacity-90"
               />
 
               {/* Outer Dashed Spinning Decorative Orbit Ring */}
@@ -282,7 +282,7 @@ export default function Hero({ onNavigate }) {
               {/* Counter-Rotating Tech-Icon Orbit */}
               <div
                 aria-hidden="true"
-                className="absolute inset-3 rounded-full border border-slate-400/30 dark:border-white/10 animate-spin-reverse-slow"
+                className="absolute inset-2.5 sm:inset-3 rounded-full border border-slate-400/30 dark:border-white/10 animate-spin-reverse-slow"
               >
                 {ORBIT_ICONS.map(({ id, Icon, label, angle, color }) => {
                   const rad = (angle * Math.PI) / 180;
@@ -295,16 +295,16 @@ export default function Hero({ onNavigate }) {
                       key={id}
                       style={{ left, top }}
                       title={label}
-                      className="absolute -translate-x-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-xl glass-surface shadow-md"
+                      className="absolute -translate-x-1/2 -translate-y-1/2 flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-xl glass-surface shadow-md"
                     >
-                      <Icon className={`h-4 w-4 ${color}`} />
+                      <Icon className={`h-3.5 w-3.5 sm:h-4 sm:w-4 ${color}`} />
                     </div>
                   );
                 })}
               </div>
 
               {/* Main Portrait Card (Picture #1: Kelvin.jpeg) */}
-              <div className="relative z-10 w-56 h-64 sm:w-64 sm:h-72 rounded-3xl overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-2xl bg-slate-900 group">
+              <div className="relative z-10 w-48 h-56 sm:w-64 sm:h-72 rounded-3xl overflow-hidden border-2 border-white/80 dark:border-white/20 shadow-2xl bg-slate-900 group">
                 <img
                   src={profileData.images.portrait}
                   alt="Kelvin Maro U. — AI Product Engineer standing outdoors in Lagos"

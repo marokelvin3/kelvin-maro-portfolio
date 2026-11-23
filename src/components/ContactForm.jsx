@@ -320,37 +320,39 @@ export default function ContactForm() {
               </div>
 
               <div className="space-y-3 pt-2">
-                <div className="flex flex-wrap items-center gap-3">
+                <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3">
                   {/* Primary Submit: Dispatches to both WhatsApp & Gmail */}
                   <motion.button
                     type="submit"
                     whileHover={{ y: -2, scale: 1.01 }}
                     whileTap={{ scale: 0.98 }}
-                    className="inline-flex flex-1 sm:flex-initial items-center justify-center gap-2.5 rounded-2xl bg-gradient-to-r from-brand-indigo via-brand-cyan to-brand-crimson px-6 py-3.5 font-display text-sm sm:text-base font-bold text-white shadow-glow-indigo hover:shadow-glow-cyan transition-all"
+                    className="inline-flex flex-1 sm:flex-initial items-center justify-center gap-2.5 rounded-2xl bg-gradient-to-r from-brand-indigo via-brand-cyan to-brand-crimson px-5 sm:px-6 py-3.5 font-display text-sm sm:text-base font-bold text-white shadow-glow-indigo hover:shadow-glow-cyan transition-all"
                   >
-                    <Send className="h-4 w-4" aria-hidden="true" />
+                    <Send className="h-4 w-4 shrink-0" aria-hidden="true" />
                     <span>Send Enquiry (WhatsApp & Gmail)</span>
                   </motion.button>
 
-                  {/* Direct WhatsApp Channel Button */}
-                  <button
-                    type="button"
-                    onClick={handleSendViaWhatsAppOnly}
-                    className="inline-flex items-center justify-center gap-2 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 px-4 py-3.5 font-display text-xs sm:text-sm font-semibold text-emerald-700 dark:text-emerald-300 hover:bg-emerald-500/20 transition-colors"
-                  >
-                    <MessageCircle className="h-4 w-4 text-emerald-500" aria-hidden="true" />
-                    <span>WhatsApp</span>
-                  </button>
+                  <div className="grid grid-cols-2 sm:flex items-center gap-3">
+                    {/* Direct WhatsApp Channel Button */}
+                    <button
+                      type="button"
+                      onClick={handleSendViaWhatsAppOnly}
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 px-4 py-3.5 font-display text-xs sm:text-sm font-semibold text-emerald-700 dark:text-emerald-300 hover:bg-emerald-500/20 transition-colors"
+                    >
+                      <MessageCircle className="h-4 w-4 text-emerald-500 shrink-0" aria-hidden="true" />
+                      <span>WhatsApp</span>
+                    </button>
 
-                  {/* Direct Gmail Web Compose Button */}
-                  <button
-                    type="button"
-                    onClick={handleSendViaGmailWeb}
-                    className="inline-flex items-center justify-center gap-2 rounded-2xl border border-brand-indigo/40 bg-brand-indigo/10 px-4 py-3.5 font-display text-xs sm:text-sm font-semibold text-brand-indigo dark:text-brand-cyan hover:bg-brand-indigo/20 transition-colors"
-                  >
-                    <Mail className="h-4 w-4" aria-hidden="true" />
-                    <span>Gmail Web</span>
-                  </button>
+                    {/* Direct Gmail Web Compose Button */}
+                    <button
+                      type="button"
+                      onClick={handleSendViaGmailWeb}
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-brand-indigo/40 bg-brand-indigo/10 px-4 py-3.5 font-display text-xs sm:text-sm font-semibold text-brand-indigo dark:text-brand-cyan hover:bg-brand-indigo/20 transition-colors"
+                    >
+                      <Mail className="h-4 w-4 shrink-0" aria-hidden="true" />
+                      <span>Gmail Web</span>
+                    </button>
+                  </div>
                 </div>
 
                 {status === 'submitted' && (
