@@ -324,24 +324,16 @@ export default function Hero({ onNavigate }) {
                 </div>
               </div>
 
-              {/* Floating Verified ID Badge (Picture #2: Kelvin Passport.png) */}
+              {/* Floating Verified Avatar Badge (Picture #2: Kelvin Passport.png) */}
               <motion.div
                 whileHover={{ scale: 1.05 }}
-                className="absolute -bottom-3 -left-2 sm:left-2 z-20 flex items-center gap-2.5 rounded-2xl glass-surface p-2 pr-3.5 shadow-xl border border-brand-cyan/40"
+                className="absolute -bottom-3 -left-2 sm:left-2 z-20 flex items-center justify-center rounded-2xl glass-surface p-1.5 shadow-xl border border-brand-cyan/40"
               >
                 <img
                   src={profileData.images.passport}
                   alt="Kelvin Maro U. headshot avatar"
-                  className="h-10 w-10 rounded-xl object-cover border border-brand-indigo"
+                  className="h-12 w-12 rounded-xl object-cover border border-brand-indigo"
                 />
-                <div className="text-left">
-                  <p className="font-display text-xs font-bold text-slate-900 dark:text-white leading-tight">
-                    100+ Hospital Staff
-                  </p>
-                  <p className="text-[11px] text-slate-600 dark:text-slate-300 leading-tight">
-                    Supported @ MRCC Lagos
-                  </p>
-                </div>
               </motion.div>
             </div>
           </motion.div>
